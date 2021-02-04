@@ -2,6 +2,8 @@ sudo apt update
 sudo apt -y install vnc4server
 sudo apt install xfce4 xfce4-goodies -y 
 sudo apt-get install fluxbox -y
+sudo apt-get install firefox -y
+sudo apt-get install falkon -y
 sudo apt-get install mate-desktop-environment-core -y
 echo Enter Your Password
 vncpasswd
