@@ -1,0 +1,11 @@
+---
+application:
+  name: "vnc-vps"
+  project: "test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-vnc-vps"
+  routes:
+  - application_name: "vnc-vps"
+    paths:
+    - "/*"
